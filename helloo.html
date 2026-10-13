@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan — Portfolio</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">Alex.dev</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-btn">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Alex Morgan</span></h1>
+            <p>Full-Stack Developer & UI/UX Enthusiast building clean, user-friendly digital experiences.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Work</a>
+                <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I'm a passionate developer based in San Francisco with over 3 years of experience crafting modern web applications. I bridge the gap between design and engineering, writing robust code that looks great and performs seamlessly.</p>
+                <p>When I'm not coding, you can find me exploring new coffee shops, hiking, or contributing to open-source projects.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <h3>3+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-box">
+                    <h3>20+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-box">
+                    <h3>15+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-html5"></i> HTML5 & CSS3</div>
+            <div class="skill-card"><i class="fab fa-js"></i> JavaScript (ES6+)</div>
+            <div class="skill-card"><i class="fab fa-react"></i> React.js</div>
+            <div class="skill-card"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="skill-card"><i class="fas fa-database"></i> MongoDB & SQL</div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img bg-1"></div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-featured online store built with React, Node.js, and Stripe payment integration.</p>
+                    <div class="project-tags">
+                        <span>React</span><span>Node</span><span>Stripe</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-img bg-2"></div>
+                <div class="project-info">
+                    <h3>Task Management App</h3>
+                    <p>A productivity dashboard for teams with real-time updates and drag-and-drop tasks.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span><span>Firebase</span><span>Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-img bg-3"></div>
+                <div class="project-info">
+                    <h3>AI Content Generator</h3>
+                    <p>An application utilizing LLM APIs to help content creators brainstorm blog ideas.</p>
+                    <div class="project-tags">
+                        <span>React</span><span>AI API</span><span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="#"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact-subtitle">Have a project in mind or just want to say hi? Drop a message!</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn primary-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
